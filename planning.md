@@ -113,30 +113,25 @@ If you were deploying this for real users, some possible tradeoffs would be:
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
 
-+----------------------+
 | Document Ingestion       |
 | ------------------------ |
 | Sources:                 |
 | - Rate My Professor      |
 | - Reddit Posts           |
 | Tool: Python             |
-| +----------+-----------+ |
 
        |
        v
-
-+----------------------+
+       
 | Chunking                 |
 | ------------------------ |
 | Chunk Size: 300          |
 | Overlap: 50              |
 | Tool: Python             |
-| +----------+-----------+ |
 
        |
        v
 
-+----------------------+
 | Embedding + Storage      |
 | ------------------------ |
 | ChromaDB                 |
@@ -144,29 +139,24 @@ If you were deploying this for real users, some possible tradeoffs would be:
 | all-MiniLM-L6-v2         |
 | Library:                 |
 | sentence-transformers    |
-| +----------+-----------+ |
 
        |
        v
 
-+----------------------+
 | Retrieval                |
 | ------------------------ |
 | Similarity Search        |
 | Top-k = 5                |
 | Library: ChromaDB        |
-| +----------+-----------+ |
 
        |
        v
 
-+----------------------+
 | Generation               |
 | ------------------------ |
-| Retrieved Chunks +       |
+| Retrieved Chunks         |
 | User Query               |
 | LLM: Groq (llama-3.3-70b-versatile) |
-| +----------------------+ |
 
 ---
 
@@ -184,6 +174,12 @@ If you were deploying this for real users, some possible tradeoffs would be:
 
 **Milestone 3 — Ingestion and chunking:**
 
+I will use Claude Code to help implement the document ingestion and chunking pipeline. I will give it my chunking stategy and a sample implementation from the tinker activity. I expect it to ensure proper data ingestion and chunking, and possiby suggest better chunking options. I will verify the output by printing sample chunks and checking that they preserve context and match the expected size.
+
 **Milestone 4 — Embedding and retrieval:**
 
+I will use Claude Code to implement and debug the ChromaDB embedding and retrieval pipeline. I will provide it with sample code and the top-k similarity search requirement. I expect it to correctly handle the _collection.query() structure and return properly formatted results. I will verify correctness by running test queries and checking that results are relevant.
+
 **Milestone 5 — Generation and interface:**
+
+I will use Claude Code to help design the prompt and implement the Groq-based generation step using llama3-70b-versatile. I will provide it the plan and sample code from the tinker activity. I expect it to produce a working generation function and simple interface logic. I will verify it by testing questions and ensuring the model only uses retrieved context.
