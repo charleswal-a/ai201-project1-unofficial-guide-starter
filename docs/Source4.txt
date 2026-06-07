@@ -1,0 +1,12 @@
+CSE 101 Profs/Advice?
+Heyyy. Math major here. Have to take cse 101 for my major, have no experience with coding. Any easy profs for this course? (Preferably a summer one) Also, what’s the workload like? Is it doable for someone with no prior coding experience?
+
+McDonnell is hands down among the best CS professors in the school. Great at teaching, great personality, and approachable. I'm actually quite upset that he spends so much time on CSE 101, I wish he would teach some upper divs so I could have him again...
+
+If the computer science department is anything like the other departments, senior professors will get first pick on courses and they pick all the upper division courses. A more junior faculty member like McDonnell is going to get the intro courses and “service” courses
+
+Is he "junior?" He's the CS Undergrad program director, if that means anything.
+
+Kevin McDonnell runs a great course over the summer. I’d highly recommend it. I took it with no previous coding experience and had no trouble.
+
+It’s an extended summer course, so it goes about two weeks into the second summer session. I took AMS 301 and the first two weeks of MAT 312 while taking CSE 101 and it was fine. You shouldn’t have any issues.

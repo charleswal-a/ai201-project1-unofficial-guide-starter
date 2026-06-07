@@ -30,7 +30,7 @@ The domain that I chose was the quality of computer science professors at Stony 
 | 3 | Reddit | Reddit forum on the Professor Daniel Benz. | https://www.reddit.com/r/SBU/comments/1gednkl/cse220_with_daniel_benz/ |
 | 4 | Reddit | Reddit forum asking for advice on professors for introductory CS cources. | https://www.reddit.com/r/SBU/comments/yu8ro2/cse_101_profsadvice/ |
 | 5 | Reddit | Reddit forum asking questions about taking a class with Professor Paul Fodor. | https://www.reddit.com/r/SBU/comments/jrqqyr/cse_114_with_paul_fodor/ |
-| 6 | RateMyProfessors | Public rating and commments on Professor Robert Kelly. | https://www.ratemyprofessrs.com/professor/99650 |
+| 6 | RateMyProfessors | Public rating and commments on Professor Robert Kelly. | https://www.ratemyprofessors.com/professor/99650 |
 | 7 | Reddit | Reddit forum asking about which CS professor to take a class with. | https://www.reddit.com/r/SBU/comments/vffod3/cse_214/ |
 | 8 | Reddit | Reddit forum asking about which CS professor to take a class with. | https://www.reddit.com/r/SBU/comments/2rt1ca/cse_114_fodor_or_mckenna/ |
 | 9 | RateMyProfessors | Public rating and commments on Professor Abid Malik. | https://www.ratemyprofessors.com/professor/2968856 |
