@@ -13,6 +13,7 @@
      Why is this knowledge valuable, and why is it hard to find through official channels?
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
+The domain that I chose was the quality of computer science professors at Stony Brook University. This is valuable knowledge for students that are deciding what professors they want to take courses with in future semesters. This knowledge is often hard to find through official channels because this information can be spread across a lot of different websites and through word of mouth only for some classes/professors.
 
 ---
 
@@ -22,18 +23,18 @@
      Be specific: include URLs, subreddit names, forum thread titles, or file names.
      Aim for variety — sources that together cover different subtopics or perspectives. -->
 
-| # | Source | Type | URL or file path |
-|---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| # | Source | Description | URL or location |
+|---|--------|-------------|-----------------|
+| 1 | RateMyProfessors | Public rating and commments on Professor Ahmad Esmaili. | https://www.ratemyprofessors.com/professor/86020 |
+| 2 | RateMyProfessors | Public rating and commments on Professor Praveen Tripathi. | https://www.ratemyprofessors.com/professor/2270244 |
+| 3 | Reddit | Reddit forum on the Professor Daniel Benz. | https://www.reddit.com/r/SBU/comments/1gednkl/cse220_with_daniel_benz/ |
+| 4 | Reddit | Reddit forum asking for advice on professors for introductory CS cources. | https://www.reddit.com/r/SBU/comments/yu8ro2/cse_101_profsadvice/ |
+| 5 | Reddit | Reddit forum asking questions about taking a class with Professor Paul Fodor. | https://www.reddit.com/r/SBU/comments/jrqqyr/cse_114_with_paul_fodor/ |
+| 6 | RateMyProfessors | Public rating and commments on Professor Robert Kelly. | https://www.ratemyprofessrs.com/professor/99650 |
+| 7 | Reddit | Reddit forum asking about which CS professor to take a class with. | https://www.reddit.com/r/SBU/comments/vffod3/cse_214/ |
+| 8 | Reddit | Reddit forum asking about which CS professor to take a class with. | https://www.reddit.com/r/SBU/comments/2rt1ca/cse_114_fodor_or_mckenna/ |
+| 9 | RateMyProfessors | Public rating and commments on Professor Abid Malik. | https://www.ratemyprofessors.com/professor/2968856 |
+| 10 | Reddit | Reddit forum asking about which CS professor to take a class with. | https://www.reddit.com/r/SBU/comments/160oo2n/cse_114_professor/ |
 
 ---
 

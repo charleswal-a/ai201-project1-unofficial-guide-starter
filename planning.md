@@ -9,7 +9,7 @@
 
 ## Domain
 
-<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+The domain that I chose was the quality of computer science professors at Stony Brook University. This is valuable knowledge for students that are deciding what professors they want to take courses with in future semesters. This knowledge is often hard to find through official channels because this information can be spread across a lot of different websites and through word of mouth only for some classes/professors.
 
 ---
 
@@ -20,16 +20,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | RateMyProfessors | Public rating and commments on Professor Ahmad Esmaili. | https://www.ratemyprofessors.com/professor/86020 |
+| 2 | RateMyProfessors | Public rating and commments on Professor Praveen Tripathi. | https://www.ratemyprofessors.com/professor/2270244 |
+| 3 | Reddit | Reddit forum on the Professor Daniel Benz. | https://www.reddit.com/r/SBU/comments/1gednkl/cse220_with_daniel_benz/ |
+| 4 | Reddit | Reddit forum asking for advice on professors for introductory CS cources. | https://www.reddit.com/r/SBU/comments/yu8ro2/cse_101_profsadvice/ |
+| 5 | Reddit | Reddit forum asking questions about taking a class with Professor Paul Fodor. | https://www.reddit.com/r/SBU/comments/jrqqyr/cse_114_with_paul_fodor/ |
+| 6 | RateMyProfessors | Public rating and commments on Professor Robert Kelly. | https://www.ratemyprofessrs.com/professor/99650 |
+| 7 | Reddit | Reddit forum asking about which CS professor to take a class with. | https://www.reddit.com/r/SBU/comments/vffod3/cse_214/ |
+| 8 | Reddit | Reddit forum asking about which CS professor to take a class with. | https://www.reddit.com/r/SBU/comments/2rt1ca/cse_114_fodor_or_mckenna/ |
+| 9 | RateMyProfessors | Public rating and commments on Professor Abid Malik. | https://www.ratemyprofessors.com/professor/2968856 |
+| 10 | Reddit | Reddit forum asking about which CS professor to take a class with. | https://www.reddit.com/r/SBU/comments/160oo2n/cse_114_professor/ |
 
 ---
 
@@ -42,9 +42,15 @@
 
 **Chunk size:**
 
+The chunk size will start at around 300 tokens beacuase of the short responses on the chosen sources.
+
 **Overlap:**
 
+The overlap will start at around 50 tokens to prevent loss of context mainly when gathering information from Reddit posts.
+
 **Reasoning:**
+
+The two main sources that I chose to use are RateMyProfesssors and Reddit. Both of these sources contain short responses and selfcontained opionins. The chunks will be on the smaller size beacuase of the short responses and text on both sites. The overlap will prevent loss of context mainly when gathering information from Reddit posts.
 
 ---
 
@@ -57,10 +63,16 @@
      support, accuracy on domain-specific text, latency? -->
 
 **Embedding model:**
+The embedding model that I will use will be all-MiniLM-L6-v2 via sentence-transformers for efficient embeddings and strong search performance.
 
 **Top-k:**
+I will start by retrieving the top-k = 5 chunks per query. This seems like a good starting point becuase it is a middle ground between retrieving too little and too many chunks.
 
 **Production tradeoff reflection:**
+If you were deploying this for real users, some possible tradeoffs would be:
+1. Accuracy vs. Speed (the model may trade response speed for better responses)
+2. Specific Terminology (the model might not understand SBU-specific terms)
+3. Length of Context (some sources and forums may vary in length)
 
 ---
 
@@ -73,11 +85,11 @@
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | Who is the better professor to take CSE101 with at Stony Brook? | |
+| 2 | Who is the most popular professor to take Computer Science classes with at Stony Brook? | |
+| 3 | What traits make a Computer Science professor unliked at Stony Brook? | |
+| 4 | What do students say about Professor Ahmad Esmaili? | |
+| 5 | What professors are the best to take introductory Computer Science classes with at Stony Brook? |
 
 ---
 
@@ -87,7 +99,7 @@
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. 
 
 2.
 
