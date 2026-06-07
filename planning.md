@@ -85,11 +85,11 @@ If you were deploying this for real users, some possible tradeoffs would be:
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | Who is the better professor to take CSE101 with at Stony Brook? | |
-| 2 | Who is the most popular professor to take Computer Science classes with at Stony Brook? | |
-| 3 | What traits make a Computer Science professor unliked at Stony Brook? | |
-| 4 | What do students say about Professor Ahmad Esmaili? | |
-| 5 | What professors are the best to take introductory Computer Science classes with at Stony Brook? |
+| 1 | Who is the better professor to take CSE101 with at Stony Brook? | Professor McDonnell. |
+| 2 | Who is the most popular professor to take Computer Science classes with at Stony Brook? | Professor McDonnell or Professor Fodor. |
+| 3 | What traits make a Computer Science professor unliked at Stony Brook? | Poor teaching style, not caring about students, improper attitude. |
+| 4 | What do students say about Professor Ahmad Esmaili? | Mixed reviews, fair class structure, lectures are not engaging but he can teach concepts. |
+| 5 | What professors are the best to take introductory Computer Science classes with at Stony Brook? | Professor McDonnell or Professor Fodor. |
 
 ---
 
@@ -99,9 +99,9 @@ If you were deploying this for real users, some possible tradeoffs would be:
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1. 
+1. One possible challenge is inconsistent data from the sources. This is because both RateMyProfessor and Reddit are user forums where people post their opinions. Multiple students can have different view and attitudes towards the same professor depending on their preferences, when they had the professor, and other factors.
 
-2.
+2. Another possible issue is chunk boundaries. There may be important information that will be split across two chunks, especially with longer Reddit posts. If a query retrieves only one of those chunks, key context could be missing when a response is trying to be formed.
 
 ---
 
@@ -112,6 +112,61 @@ If you were deploying this for real users, some possible tradeoffs would be:
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+
++----------------------+
+| Document Ingestion       |
+| ------------------------ |
+| Sources:                 |
+| - Rate My Professor      |
+| - Reddit Posts           |
+| Tool: Python             |
+| +----------+-----------+ |
+
+       |
+       v
+
++----------------------+
+| Chunking                 |
+| ------------------------ |
+| Chunk Size: 300          |
+| Overlap: 50              |
+| Tool: Python             |
+| +----------+-----------+ |
+
+       |
+       v
+
++----------------------+
+| Embedding + Storage      |
+| ------------------------ |
+| ChromaDB                 |
+| Model:                   |
+| all-MiniLM-L6-v2         |
+| Library:                 |
+| sentence-transformers    |
+| +----------+-----------+ |
+
+       |
+       v
+
++----------------------+
+| Retrieval                |
+| ------------------------ |
+| Similarity Search        |
+| Top-k = 5                |
+| Library: ChromaDB        |
+| +----------+-----------+ |
+
+       |
+       v
+
++----------------------+
+| Generation               |
+| ------------------------ |
+| Retrieved Chunks +       |
+| User Query               |
+| LLM: Groq (llama-3.3-70b-versatile) |
+| +----------------------+ |
 
 ---
 
