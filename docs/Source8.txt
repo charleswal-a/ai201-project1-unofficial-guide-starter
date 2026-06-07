@@ -1,0 +1,48 @@
+CSE 114 Fodor or McKenna
+Given a choice between these 2, who would be the better professor? Or who would teach 114 in a more effective way. Granted, I know that both these professors are great lecturers. I just want to hear your opinions. Thanks.
+
+I took it with Fodor this fall semester , he is a really good professor go to office hours they are helpful, I know everyone says that but actually listen hahah.
+
+If you have no experience in programming i could see it being a little rough in the beginning, he rushes through some of the basics of Java. But the my programming assignments are pretty useful in the beginning for helping you nail things down. But the good thing is that you can find many java tutorials on the internet. You can get a headstart buy downloading Java SE 8 and the Eclipse IDE
+
+The class basically boils down to in class quizzes, labs, and homework.
+
+In the quizzes you're given a programming problem on a sheet of paper. Fodor goes through the quiz during class and you can just copy down the answers, its more attendance than anything.
+
+In the labs, you'll have too do myprogramminglab assignments and a program or two (which you can work on outside of labs) . If you finish the assignments before the lab and show them to your TA you can just leave.
+
+You also have a final programming project, but you have a lot of time to do it, and it could be on anything, usually games like poker and stuff.
+
+You'll also have to learn binary numbers and hexadecimal numbers for the first exam, but after that they rarely show up, except on labs
+
+The exams can be pretty tough but as long as you study the lab questions and the quizzes he gives you should be good to go.
+
+McKennaaaaa!
+
+I didn't take 114 with him but I took 219. He is a fantastic teacher and he will give you some advices about programming in general that you would treasure your entire life.
+
+For example, "Use the debugger".
+
+Fodor is great too but McKenna's lectures never get dry. He's easy to approach and extremely helpful and knowledgeable.
+
+I second McKenna. I only had him for 219 but he is more "fun" I would say, so he will definitely keep you engaged. Fodor is good too, but he is more reserved. I had Fodor for 114.
+
+Don't be afraid of 114. As someone who learned how to program in 114, that course isn't bad. Some of the later ones can be a real doozy though.. Good luck in your programming career and if you have any questions, feel free to ask!
+
+I like McKenna more, but I'd bet that Fodor would teach 114 more effectively. Fodor has been teaching 114 for awhile now, and I haven't heard of McKenna doing it since I've been here. Either way, they're both great. But, if you made me choose which one to teach 114, I'd go with Fodor purely based on the fact that he's done it for awhile and has a good system.
+
+As far as your experience, just keep up with the material and you'll be fine. For you, this advice could mean spending a decent amount of time on the material and labs. It could also mean that you grasp it relatively easily and you don't need to spend a lot of time on it. As is every course you're gonna take here, tailor it to your needs and not what everyone else says you should do.
+
+I, like many others who have commented, have taken 114 with Fodor and 219 with McKenna.
+
+It depends on what you want. If you are a CSE major and want to really learn programming, choose Fodor. That's not to say McKenna can't teach it, it's just Fodor has been teaching this class for many years and he's amazing at it. If you do everything Fodor tells you to do, you will be on your merry way to being an excellent programmer.
+
+That having been said, if you're just taking this class to get a taste of programming and see if it's what you like, choose McKenna. Since he teaches more upper division courses, he's closer to the people who graduate and by association knows more about the current world of programming. He will show you all there is to love about programming. Also, Fodor's exams are hard. McKenna's are not. This way you get a taste of programming without wrecking your GPA if it's not what you like.
+
+Tl;dr - Fodor is better at teaching the class but McKenna is more fun and his exams are easier. Depends on what you're looking for.
+
+I just took it with Fodor and he's the best professor in my entire stony brook experience. He doesn't "trick" you on his exams. He gives you a list of topics you should know, and you should practice doing them. As long as you practice by doing all the labs, you should do well on the final. Fodor made me love programming.
+
+Fodor was an amazing professor. Not only was he a good teacher but he was helpful at office hours.
+
+They are both excellent professors and you will learn equally well from either of them. That being said, I always take Fodor when I have the chance as he is very understanding and cares for his students, and in my experience his lectures are more helpful. McKenna is a chill guy and is not by any means a poor choice, but Fodor will really go the extra mile to help you out.
